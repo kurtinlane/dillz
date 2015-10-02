@@ -19,3 +19,5 @@ ecmascript              # Enable ECMAScript2015+ syntax in app code
 mizzao:bootstrap-3
 accounts-ui
 accounts-password
+mrt:twilio-meteor
+mrt:moment

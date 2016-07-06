@@ -11,8 +11,9 @@ import (
 
 func main() {
 	// Set initial variables
-	accountSid := "ACcd11ee8452c1eacb8a16599b9a3662da"
-	authToken := "bb6b4d096ed678f6263cbdcabd535094"
+	// https://www.twilio.com/console
+	accountSid := ""
+	authToken := ""
 	urlStr := "https://api.twilio.com/2010-04-01/Accounts/" + accountSid + "/SMS/Messages.json"
 
 	phoneNumbers := []string{"+18019716820", "+14155318437", "+15412078581"}
